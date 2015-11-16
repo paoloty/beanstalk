@@ -1,0 +1,78 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    section.two .col-4, section.four .col-8, section.four .col-4, section.five .col-3 {
+        width: 100%;
+    }
+
+    section.three p.bree br, section.five .col-3 br {
+        display: none;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    section {
+        padding: 60px;
+    }
+
+    section.one.hero, section.three.hero {
+        padding: 60px 0;
+        background-size: initial !important;
+        height: auto;
+    }
+
+    section.one.hero {
+        padding-top: 180px;
+    }
+
+        section.one.hero .container, section.three.hero .container {
+            position: relative;
+        }
+
+    section.two .col-4, section.four .col-8, section.four .col-4, section.five .col-3 {
+        float: none;
+        margin: 0 auto;
+    }
+        section.two .col-4 p {
+            margin-bottom: 30px;
+        }
+            section.two .col-4 p br {
+                display: none;
+            }
+
+    section.two img {
+        margin-bottom: 30px;
+    }
+
+    section.three.hero small {
+        padding-top: 30px;
+    }
+
+    section.five .col-3 {
+        margin-bottom: 30px;
+    }
+        section.five .col-3:last-child {
+            margin-bottom: none;
+        }
+
+    .row [class*=col] h2 {
+        margin-bottom: 30px;
+    }
+
+}
